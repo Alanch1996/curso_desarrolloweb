@@ -10,7 +10,7 @@
 
 .principal{
  
-    background-image: url(../images/fondo34.webp);
+    background-image: url(../imagenes/fondo\ de\ mi\ proyecto.webp);
     background-size: cover;
 }
 .bnosotros{
@@ -18,12 +18,12 @@
 }
 img{
 
-    width:300px;
-    height: 250px;
+    width:30vw;
+    height: 25vh;
 }
 p{ 
     font-family: cursive;
+   
 }
 p:hover{
 background-color: beige}
- 
