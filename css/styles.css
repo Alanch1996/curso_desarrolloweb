@@ -15,7 +15,7 @@
  }
 
 .principal{ 
-    background-image: url(../images/fondo34.webp);
+    background-image: url(../imagenes/fondo\ de\ mi\ proyecto.webp);
     background-size: cover;
     height: 100vh;
     display: grid;
@@ -117,7 +117,7 @@ a { padding: 10px;
 }
 
 .bniñxs{
-    background-image: url(../images/fondo34.webp);
+    background-image: url(../imagenes/fondo\ de\ mi\ proyecto.webp);
     background-size: cover;
     height: 100vh;
     display: grid;
@@ -146,7 +146,7 @@ a { padding: 10px;
 }
 
 #nosotros_body {
-    background-image: url(../images/fondo34.webp);
+    background-image: url(../imagenes/fondo\ de\ mi\ proyecto.webp);
     background-size: cover;
     height: 100vh;
     display: grid;
@@ -180,7 +180,7 @@ a { padding: 10px;
     height: 250px;
 }
 .menub {
-    background-image: url(../images/fondo34.webp);
+    background-image: url(../imagenes/fondo\ de\ mi\ proyecto.webp);
     background-size: cover;
     height: 100vh;
     display: grid;
