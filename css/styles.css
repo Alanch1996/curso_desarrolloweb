@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Ubuntu:wght@300;500;700&display=swap');
-
+<!---reset--->
 * {
     margin: 0;
     padding: 0;
@@ -7,80 +7,25 @@
     font-family: 'Comfortaa', ;
     font-family: 'Ubuntu', sans-serif;
 }
+<!---body--->
  body{
     display: flex;
     height: 100vh;
     flex-wrap: wrap;
     font-size: 18px;
  }
+ <!---bodyindex--->
  .bindex {
- background-image: url("../imagenes/fondo\ de\ mi\ proyecto.webp")
+ background-image: url("../imagenes/fondo\ de\ mi\ proyecto.webp");
+ background-size: cover ;
  }
- .principal{ 
-    background-image: url(../imagenes/fondo\ de\ mi\ proyecto.webp);
-    background-size: cover;
-}
+ <!---page_nosotros--->
 .bnosotros{
     background-color: bisque;
-}
-img{
-    width:30vw;
-    height: 25vh;
-}
-p{ 
-    font-family: cursive;
-    grid-area: uno;
- }
-
- #segundodiv {
-    display: flex;
-    justify-content: space-around;
-    align-content: space-around;
-    margin-top: 30px;
-
-
- }
- .cuatro { grid-area: cuatro;
-    display: flex;
-    justify-content: center;
-    align-content: space-around;}
-
-    .image{
-        
-        padding-top: 40px;
-        width: 300px;
-        gap: 10px;
-        grid-gap: 10px;
-    }
-    .footer {
-        grid-area: footer;
-        animation-name: titulo;
-  }
-   
-
-  .bniñxs{
-    background-image: url("../imagenes/fondo\ de\ mi\ proyecto.webp");
-    background-size: cover;
-    height: 100vh;
-    display: grid;
-   
-}
-.bnosotros {
     height: 100vh;
     display: grid;
     
 }
-.bmenu {
-    height: 100vh;
-    display: grid;
-    background-image: url("../imagenes/fc.png");
- }
-
- .pie { 
-    padding-top: 20px;
- }
-
-
 .texto_historia {
     font-size: 1.3rem;
 }
@@ -94,7 +39,30 @@ p{
 
 p:hover {
 background-color: beige}
+<!---imagenes--->
+img{
+    width:30vw;
+    height: 25vh;
+}
+<!---page_ninxs--->
+   .bniñxs{
+    background-image: url("../imagenes/fondo\ de\ mi\ proyecto.webp");
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+   
+}
+<!---page_contacto--->
+.bmenu {
+    height: 100vh;
+    display: grid;
+    background-image: url("../imagenes/fc.png");
+ }
 
+ .pie { 
+    padding-top: 20px;
+ }
+ <!---estilo_formulario--->
 form  {
    background-color: white;
    padding: 40px;
@@ -114,6 +82,7 @@ form  {
     text-align: center;
     color: black;
 }
+<!---estilo_informacion--->
 .info { 
     text-align: center;
 }
@@ -124,6 +93,7 @@ form  {
     border-radius: 10px;
     ;
  }
+ <!---media_contacto--->
  @media (max-width:576px) {
     
     .tituloform {
