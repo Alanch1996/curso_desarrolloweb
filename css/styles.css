@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Ubuntu:wght@300;500;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +12,7 @@
     display: flex;
     height: 100vh;
     flex-wrap: wrap;
+    font-size: 18px;
 
  }
 
@@ -33,11 +35,44 @@
   
     
   }
-  .titulo {
-
-    grid-area: titulo;
+  .titulo { grid-area: titulo;
+    text-align: center;
+    font-size: 2rem;
+    background: white;
+    }
+    .titulo:hover{
+         font-size: 3.5rem;
+         width: 100%;
+         background-color: white;
+         transition: 2s;
+         transition-property: all;
+         transition-timing-function: ease-in-out; }
+ h1 {
+    animation-name: backInDown;
+    animation-duration: 2s;
+ }
+        
+    
+    .navb{ 
+        grid-area: navb;
+        padding-top: 1rem;
+        animation-name:animate__slideInLeft;
+        animation-duration: 2s;
+    }
+    
+     a { 
+        width: 100%;
+        padding:1rem;
+        text-decoration: none;
+        color: rgb(141, 2, 2);
+        text-decoration: underline double;
+    }
+    a:hover {
+        font-size: 1.3rem;
+        background: whitesmoke;
+    }
+    
    
-}
 img{
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -63,10 +98,13 @@ img:hover {
     display: flex;
     justify-content: space-around;
     align-content: space-around;
+    transition: 2s;
+    transform: perspective(150deg);
  
 }
 
 .uno{
+   
     grid-area: uno;
  }
 
@@ -76,6 +114,7 @@ img:hover {
     align-content: space-around;
     margin-top: 30px;
 
+
  }
  .cuatro { grid-area: cuatro;
     display: flex;
@@ -83,38 +122,27 @@ img:hover {
     align-content: space-around;}
 
     .image{
+        
         padding-top: 40px;
         width: 300px;
         gap: 10px;
         grid-gap: 10px;
     }
+    .footer {
+        grid-area: footer;
+        animation-name: titulo;
+ 
+    }
+    
 
   footer{
     align-self: flex-end;
     align-content: center;
     width: 100%;
-    height: 60px;
+   animation-name: pie;
+   animation-duration: 5s;
   }
-
-  .footer{
-   
-    grid-area: footer;
-
-  }
-  .navb{ 
-    grid-area: navb;
-    width: 100%;
-    height: 30px;
-     padding-block: 10px;}
-nav {
-    align-items: flex-end;
-    
-}
-a { padding: 10px;
-    text-decoration: none;
-  color: rgb(141, 2, 2);
-  text-decoration: underline double;
-}
+  
 
 .bniñxs{
     background-image: url(../imagenes/fondo\ de\ mi\ proyecto.webp);
@@ -164,15 +192,39 @@ a { padding: 10px;
 
 
 .section1{ 
-    
-    grid-area: section1;}
+    grid-area: section1;
+    padding-top: 2rem;
+}
+.Historia {
+    font-size: 2.2rem;
+    padding-bottom: 1rem;
+}
+.texto_historia {
+    font-size: 1.3rem;
+}
+.texto_historia:hover{
+    width: 100%;
+    background-color: white;
+    transition: 3s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
 .section2{
     padding-top: 50px;
     grid-area: section2;
 }
+.staff_title {
+    font-size: 2.2rem;
+    padding-bottom: 1rem;
+}
+.staff {
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+}
 .img_staff1 {
     width: 300px;
     height: 250px;
+    padding-bottom: 1rem;
 }
 .img_staff2
 {
@@ -194,6 +246,8 @@ a { padding: 10px;
     ;
     text-align: center;
 }
+
+
 
 
 @media screen and (max-width : 768px) {
