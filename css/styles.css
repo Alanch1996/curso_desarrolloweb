@@ -7,19 +7,20 @@
     font-family: 'Comfortaa', ;
     font-family: 'Ubuntu', sans-serif;
 }
-<!---body--->
+/* <!---body---> */
  body{
     display: flex;
     height: 100vh;
     flex-wrap: wrap;
     font-size: 18px;
  }
- <!---bodyindex--->
+/* body index */
  .bindex {
  background-image: url("../imagenes/fondo\ de\ mi\ proyecto.webp");
  background-size: cover ;
  }
- <!---page_nosotros--->
+ /* body pag nosotros */
+
 .bnosotros{
     background-color: bisque;
     height: 100vh;
@@ -39,12 +40,12 @@
 
 p:hover {
 background-color: beige}
-<!---imagenes--->
+/* imagenes */
 img{
     width:30vw;
     height: 25vh;
 }
-<!---page_ninxs--->
+/* body de pages niños y niñas */
    .bniñxs{
     background-image: url("../imagenes/fondo\ de\ mi\ proyecto.webp");
     background-size: cover;
@@ -52,17 +53,17 @@ img{
     display: grid;
    
 }
-<!---page_contacto--->
+/* body contacto*/
 .bmenu {
     height: 100vh;
     display: grid;
     background-image: url("../imagenes/fc.png");
  }
-
+/* footer */
  .pie { 
     padding-top: 20px;
  }
- <!---estilo_formulario--->
+ /* estilo al formulario */
 form  {
    background-color: white;
    padding: 40px;
@@ -82,7 +83,8 @@ form  {
     text-align: center;
     color: black;
 }
-<!---estilo_informacion--->
+/* estilo a info page contact */
+
 .info { 
     text-align: center;
 }
@@ -93,7 +95,7 @@ form  {
     border-radius: 10px;
     ;
  }
-
+/* media contact */
  @media (max-width:576px) {
     
     .tituloform {
